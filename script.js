@@ -1,12 +1,10 @@
 
 // Adiciona um ouvinte de evento ao botão
-const cores = ['red', 'blue', 'green', 'orange', 'purple'];
-let indice = 0;
 
 const botao = document.getElementById('botao');
 const texto = document.getElementById('texto');
 botao.addEventListener('click', function () {
-  texto.style.color = 'cores[indice]';
+  texto.style.color = 'blue';
 });
 
 
