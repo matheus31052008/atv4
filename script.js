@@ -18,3 +18,4 @@ botaoReset.addEventListener('click', function () {
 botaoTexto.addEventListener('click', function () {
   texto.textContent = 'O texto foi alterado com sucesso!';
 });
+ 
